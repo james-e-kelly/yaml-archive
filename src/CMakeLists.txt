@@ -7,6 +7,10 @@ add_library(yaml-archive
     boost/archive/yaml_oarchive.hpp
     boost/archive/yaml_wiarchive.hpp
     boost/archive/yaml_woarchive.hpp
+    boost/archive/yaml_iarchive.cpp
+    boost/archive/yaml_oarchive.cpp
+    boost/archive/yaml_wiarchive.cpp
+    boost/archive/yaml_woarchive.cpp
     )
 
 # set_target_properties(yaml-archive PROPERTIES CXX_STANDARD 11)
