@@ -1,5 +1,5 @@
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
-// basic_yaml_oarchive.hpp:
+// basic_yaml_oarchive.ipp:
 
 // (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
 // Distributed under the Boost Software License, Version 1.0. (See

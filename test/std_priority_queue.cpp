@@ -12,7 +12,7 @@
 #include <boost/serialization/vector.hpp>
 
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 #include "io_fixture.hpp" // includes boost/version.hpp
 #if BOOST_VERSION > 105500
 #include <boost/serialization/priority_queue.hpp>

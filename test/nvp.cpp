@@ -1,4 +1,4 @@
-#include "A.hpp"
+#include "A.ipp"
 #include "B.hpp"
 #include "io_fixture.hpp"
 #include <boost/serialization/nvp.hpp>

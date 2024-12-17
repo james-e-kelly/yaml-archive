@@ -8,7 +8,7 @@
 
 #include "polymorphic_A.hpp"
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 #include <boost/serialization/nvp.hpp>
 #include <iostream>
 

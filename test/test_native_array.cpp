@@ -26,7 +26,7 @@ using ::remove;
 #include <boost/core/no_exceptions_support.hpp>
 
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 
 template <class T> int test_native_array()
 {

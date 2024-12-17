@@ -20,7 +20,7 @@ using ::remove;
 
 #include "test_tools.hpp"
 
-#include "A.hpp"
+#include "A.ipp"
 #include "B.hpp"
 
 int test_main(int /*argc*/, char* /*argv*/ [])

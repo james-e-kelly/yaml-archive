@@ -10,7 +10,7 @@
 // should pass compilation and execution
 
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 #include "io_fixture.hpp" // includes boost/version.hpp
 #include <algorithm>      // std::copy
 #if BOOST_VERSION > 105900

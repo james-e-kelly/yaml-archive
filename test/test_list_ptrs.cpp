@@ -29,7 +29,7 @@ namespace std{
 #include <boost/serialization/nvp.hpp>
 
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 
 template<class T>
 struct ptr_equal_to : public std::binary_function<T, T, bool> 

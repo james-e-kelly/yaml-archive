@@ -26,7 +26,7 @@ namespace std{
 #include <boost/array.hpp>
 
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 
 static unsigned counter = 0;
 

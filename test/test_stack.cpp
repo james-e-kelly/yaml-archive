@@ -26,7 +26,7 @@ namespace std{
 #include <boost/serialization/stack.hpp>
 
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 
 int test_main( int /* argc */, char* /* argv */[] )
 {

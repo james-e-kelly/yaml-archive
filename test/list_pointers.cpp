@@ -11,7 +11,7 @@
 #include <boost/config.hpp>
 
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 #include "io_fixture.hpp" // includes boost/version.hpp
 #include <boost/archive/archive_exception.hpp>
 #include <boost/checked_delete.hpp>

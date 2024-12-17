@@ -24,7 +24,7 @@ using ::remove;
 #endif
 
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 #include "io_fixture.hpp" // includes boost/version.hpp
 #include <algorithm>      // std::copy
 #include <boost/archive/archive_exception.hpp>

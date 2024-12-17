@@ -16,7 +16,7 @@
 #include <cstddef> // NULL
 
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 #include "io_fixture.hpp"
 
 BOOST_FIXTURE_TEST_CASE(simple_class, io_fixture)

@@ -1,12 +1,12 @@
 
 add_library(yaml-archive
     boost/archive/impl/yaml_grammar.hpp
-    boost/archive/impl/yaml_wgrammar.hpp
-    boost/archive/yaml_archive_exception.hpp
-    boost/archive/yaml_iarchive.hpp
-    boost/archive/yaml_oarchive.hpp
-    boost/archive/yaml_wiarchive.hpp
-    boost/archive/yaml_woarchive.hpp
+    boost/archive/impl/yaml_wgrammar.ipp
+    boost/archive/yaml_archive_exception.ipp
+    boost/archive/yaml_iarchive.ipp
+    boost/archive/yaml_oarchive.ipp
+    boost/archive/yaml_wiarchive.ipp
+    boost/archive/yaml_woarchive.ipp
     )
 
 # set_target_properties(yaml-archive PROPERTIES CXX_STANDARD 11)
@@ -30,13 +30,13 @@ set(public_headers
     "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/yaml_archive_exception.hpp")
 
 set(private_headers
-    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/basic_yaml_grammar.hpp"
-    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/basic_yaml_iarchive.hpp"
-    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/basic_yaml_oarchive.hpp"
-    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/yaml_iarchive_impl.hpp"
-    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/yaml_oarchive_impl.hpp"
-    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/yaml_wiarchive_impl.hpp"
-    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/yaml_woarchive_impl.hpp")
+    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/basic_yaml_grammar.ipp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/basic_yaml_iarchive.ipp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/basic_yaml_oarchive.ipp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/yaml_iarchive_impl.ipp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/yaml_oarchive_impl.ipp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/yaml_wiarchive_impl.ipp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/yaml_woarchive_impl.ipp")
 
 set_target_properties(yaml-archive
     PROPERTIES

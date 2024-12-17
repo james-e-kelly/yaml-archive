@@ -9,7 +9,7 @@
 // should pass compilation and execution
 
 #include "A.hpp"
-#include "A.hpp"
+#include "A.ipp"
 #include "io_fixture.hpp"
 #include <boost/test/unit_test.hpp>
 
