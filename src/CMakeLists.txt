@@ -30,7 +30,7 @@ set(public_headers
     "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/yaml_archive_exception.hpp")
 
 set(private_headers
-    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/basic_yaml_grammar.hpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/basic_yaml_grammar.inl"
     "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/basic_yaml_iarchive.hpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/basic_yaml_oarchive.hpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/boost/archive/impl/yaml_iarchive_impl.hpp"

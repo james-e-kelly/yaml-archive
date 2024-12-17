@@ -59,7 +59,7 @@ template <> void yaml_grammar::init_chset()
 } // namespace archive
 } // namespace boost
 
-#include "basic_yaml_grammar.hpp"
+#include "basic_yaml_grammar.inl"
 
 namespace boost {
 namespace archive {
