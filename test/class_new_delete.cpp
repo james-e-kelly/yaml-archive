@@ -11,7 +11,7 @@
 #include <new>
 
 #include "A.hpp"
-#include "A.ipp"
+#include "A.hpp"
 #include "io_fixture.hpp"
 #include <boost/serialization/access.hpp>
 #include <boost/test/unit_test.hpp>

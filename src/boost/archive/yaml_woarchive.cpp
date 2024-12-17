@@ -25,9 +25,9 @@
 #include <boost/serialization/config.hpp>
 
 // explicitly instantiate for this type of text stream
-#include <boost/archive/impl/archive_serializer_map.ipp>
-#include <boost/archive/impl/basic_yaml_oarchive.ipp>
-#include <boost/archive/impl/yaml_woarchive_impl.ipp>
+#include <boost/archive/impl/archive_serializer_map.hpp>
+#include <boost/archive/impl/basic_yaml_oarchive.hpp>
+#include <boost/archive/impl/yaml_woarchive_impl.hpp>
 
 namespace boost {
 namespace archive {

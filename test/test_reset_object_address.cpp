@@ -35,7 +35,7 @@ namespace std{
 
 // simple test of untracked value
 #include "A.hpp"
-#include "A.ipp"
+#include "A.hpp"
 
 void test1(){
     std::stringstream ss;

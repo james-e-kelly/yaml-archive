@@ -25,7 +25,7 @@ using ::remove;
 #include <boost/serialization/deque.hpp>
 
 #include "A.hpp"
-#include "A.ipp"
+#include "A.hpp"
 
 int test_main(int /* argc */, char* /* argv */ [])
 {

@@ -22,7 +22,7 @@ namespace std{
 #include "test_tools.hpp"
 
 #include "B.hpp"
-#include "A.ipp"
+#include "A.hpp"
 
 int test_main( int /* argc */, char* /* argv */[] )
 {

@@ -22,7 +22,7 @@ using ::remove;
 #include "test_tools.hpp"
 #include <boost/serialization/nvp.hpp>
 
-#include "A.ipp"
+#include "A.hpp"
 #include "B.hpp"
 
 ///////////////////////////////////////////////////////

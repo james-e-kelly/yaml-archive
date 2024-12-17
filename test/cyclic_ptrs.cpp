@@ -9,7 +9,7 @@
 // should pass compilation and execution
 
 #include "A.hpp"
-#include "A.ipp"
+#include "A.hpp"
 #include "io_fixture.hpp"
 #include <boost/serialization/base_object.hpp>
 #include <boost/serialization/nvp.hpp>

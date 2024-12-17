@@ -9,7 +9,7 @@
 #include <boost/test/unit_test.hpp>
 
 #include "A.hpp"
-#include "A.ipp"
+#include "A.hpp"
 #include "B.hpp"
 #include "basics_fixture.hpp"
 

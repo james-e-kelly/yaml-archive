@@ -11,7 +11,7 @@
 
 #define A_EXPORT
 #include "A.hpp"
-#include "A.ipp"
+#include "A.hpp"
 #include "A.cpp"
 
 // instantiate code for text archives

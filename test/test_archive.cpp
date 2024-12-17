@@ -31,7 +31,7 @@
 #include <boost/serialization/force_include.hpp>
 
 #include "A.hpp"
-#include "A.ipp"
+#include "A.hpp"
 #include "B.hpp"
 #include "C.hpp"
 #include "D.hpp"

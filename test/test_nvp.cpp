@@ -23,7 +23,7 @@ using ::remove;
 
 #include <boost/serialization/nvp.hpp>
 
-#include "A.ipp"
+#include "A.hpp"
 #include "B.hpp"
 
 int test_main(int /* argc */, char* /* argv */ [])

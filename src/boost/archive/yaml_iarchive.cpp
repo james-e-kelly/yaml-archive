@@ -20,9 +20,9 @@
 #include <boost/serialization/config.hpp>
 
 // explicitly instantiate for this type of yaml stream
-#include <boost/archive/impl/archive_serializer_map.ipp>
-#include <boost/archive/impl/basic_yaml_iarchive.ipp>
-#include <boost/archive/impl/yaml_iarchive_impl.ipp>
+#include <boost/archive/impl/archive_serializer_map.hpp>
+#include <boost/archive/impl/basic_yaml_iarchive.hpp>
+#include <boost/archive/impl/yaml_iarchive_impl.hpp>
 
 namespace boost {
 namespace archive {

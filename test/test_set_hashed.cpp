@@ -38,7 +38,7 @@ namespace std{
 #include <boost/serialization/set.hpp>
 
 #include "A.hpp"
-#include "A.ipp"
+#include "A.hpp"
 
 void
 test_set(){

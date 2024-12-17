@@ -1,5 +1,5 @@
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
-// A.ipp    simple class test
+// A.hpp    simple class test
 
 // (C) Copyright 2002 Robert Ramey - http://www.rrsd.com . 
 // Use, modification and distribution is subject to the Boost Software

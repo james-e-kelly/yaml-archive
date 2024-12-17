@@ -26,7 +26,7 @@ namespace std{
 #include <boost/archive/archive_exception.hpp>
 
 #include "A.hpp"
-#include "A.ipp"
+#include "A.hpp"
 
 static int counter = 0;
 
