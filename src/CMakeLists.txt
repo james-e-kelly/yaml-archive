@@ -1,7 +1,7 @@
 
 add_library(yaml-archive
-    boost/archive/impl/yaml_grammar.cpp
-    boost/archive/impl/yaml_wgrammar.cpp
+    boost/archive/impl/yaml_grammar.hpp
+    boost/archive/impl/yaml_wgrammar.hpp
     boost/archive/yaml_archive_exception.hpp
     boost/archive/yaml_iarchive.hpp
     boost/archive/yaml_oarchive.hpp
