@@ -1,12 +1,12 @@
 
 add_library(yaml-archive
-    boost/archive/impl/yaml_grammar.hpp
-    boost/archive/impl/yaml_wgrammar.ipp
-    boost/archive/yaml_archive_exception.ipp
-    boost/archive/yaml_iarchive.ipp
-    boost/archive/yaml_oarchive.ipp
-    boost/archive/yaml_wiarchive.ipp
-    boost/archive/yaml_woarchive.ipp
+    boost/archive/impl/yaml_grammar
+    boost/archive/impl/yaml_wgrammar
+    boost/archive/yaml_archive_exception
+    boost/archive/yaml_iarchive
+    boost/archive/yaml_oarchive
+    boost/archive/yaml_wiarchive
+    boost/archive/yaml_woarchive
     )
 
 # set_target_properties(yaml-archive PROPERTIES CXX_STANDARD 11)
