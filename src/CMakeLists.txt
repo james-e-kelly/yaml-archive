@@ -65,12 +65,8 @@ else()
 endif()
 target_compile_definitions(yaml-archive PUBLIC BOOST_SERIALIZATION_NO_LIB)
 
-# We support Boost versions >= 1.54.
-find_package(Boost 1.54 COMPONENTS serialization wserialization REQUIRED)
-
 # Link with Boost and add its include path to the search paths.
-target_include_directories(yaml-archive PUBLIC ${Boost_INCLUDE_DIR})
-target_link_libraries(yaml-archive PUBLIC ${Boost_LIBRARIES})
+target_link_libraries(yaml-archive PUBLIC Boost::serialization)
 
 if (MSVC)
     target_compile_definitions(yaml-archive PRIVATE _SCL_SECURE_NO_WARNINGS)
