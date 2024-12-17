@@ -149,7 +149,7 @@ basic_yaml_oarchive<Archive>::save_override(const class_id_type& t)
 basic_yaml_oarchive<Archive>::save_override(const class_id_type& t, int)
 #endif
 {
-    if (t == NULL_POINTER_TAG)
+    if (t == BOOST_SERIALIZATION_NULL_POINTER_TAG)
     {
         this->This()->put('~');
     }

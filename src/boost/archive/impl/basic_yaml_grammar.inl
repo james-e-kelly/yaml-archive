@@ -135,7 +135,7 @@ struct set_null_pointer
     template <class X, class Y>
     void operator()(const X& /*x*/, const Y& /*y*/) const
     {
-        class_id = NULL_POINTER_TAG;
+        class_id = BOOST_SERIALIZATION_NULL_POINTER_TAG;
     }
 
     set_null_pointer(int_least16_t& class_id_) : class_id(class_id_) {}
