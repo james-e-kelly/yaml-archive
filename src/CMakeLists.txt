@@ -71,7 +71,7 @@ endif()
 target_compile_definitions(yaml-archive PUBLIC BOOST_SERIALIZATION_NO_LIB)
 
 # Link with Boost and add its include path to the search paths.
-target_link_libraries(yaml-archive PUBLIC Boost::serialization)
+target_link_libraries(yaml-archive PUBLIC Boost::serialization Boost::locale)
 
 if (MSVC)
     target_compile_definitions(yaml-archive PRIVATE _SCL_SECURE_NO_WARNINGS)
