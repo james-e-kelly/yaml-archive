@@ -25,6 +25,7 @@ set(YAML_SOURCES
     boost/archive/yaml_oarchive.cpp
     boost/archive/yaml_wiarchive.cpp
     boost/archive/yaml_woarchive.cpp
+    boost/archive/impl/yaml_grammar.cpp
     boost/archive/impl/basic_yaml_grammar.ipp
     boost/archive/impl/basic_yaml_iarchive.ipp
     boost/archive/impl/basic_yaml_oarchive.ipp
